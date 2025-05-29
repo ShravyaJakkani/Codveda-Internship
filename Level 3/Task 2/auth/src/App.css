@@ -1,0 +1,94 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #9bc8d6, #d4aa82);
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  min-height: 100vh;
+  color: #333;
+  
+}
+
+
+h2 {
+  margin-bottom: 1rem;
+  color: #061a30;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  background-color: #3e7738;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.profile-info p {
+  margin: 0.3rem 0;
+  font-size: 1.1rem;
+}
+
+.logout-btn {
+  margin-top: 1.5rem;
+  background-color: #dc3545;
+}
+
+.logout-btn:hover {
+  background-color: #a71d2a;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #ddd;
+
+}
+#app{
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 15px;
+}

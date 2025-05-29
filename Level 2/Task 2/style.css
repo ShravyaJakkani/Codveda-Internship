@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("todo.avif");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .container {
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 350px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul#lst {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  ul#lst li {
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  span {
+    color: #888;
+  }
+  
+  li button {
+    margin-left: 8px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  .complete-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
