@@ -38,7 +38,7 @@ Each task has its own `README.md` with steps to run the respective projects. For
    npm install
    npm start
 
-# Ensure MongoDB and environment variables (like MONGO_URI and JWT_SECRET) are properly configured in .env.
+ Ensure MongoDB and environment variables (like MONGO_URI and JWT_SECRET) are properly configured in .env.
 
 Feel free to explore each level to see my learning journey and implementations! 
 
@@ -50,8 +50,8 @@ This internship helped me:
 
   -  Build secure and scalable backend APIs.
 
-    Implement user authentication and protected routes.
+  -  Implement user authentication and protected routes.
 
-    Manage project structure in a collaborative GitHub environment.
+  -  Manage project structure in a collaborative GitHub environment.
 
-# Codveda-Internship
+
